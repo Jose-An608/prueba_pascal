@@ -1,0 +1,13 @@
+program ReadLn1;
+
+var 
+numero, doble: integer;
+
+begin
+write('Introduce un numero : ');
+readLn(numero);
+doble := numero * 2;
+
+writeln('Su doble es ', doble);
+
+end.
